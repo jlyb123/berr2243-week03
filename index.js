@@ -24,7 +24,7 @@ async function connectToMongoDB() {
 connectToMongoDB();
 
 app.listen(port, () => {
-    console.log(Server running on port ${port});
+    console.log("Server running on port ${port}");
 });
 
 // GET /rides – Fetch all rides
